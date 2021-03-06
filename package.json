@@ -1,0 +1,39 @@
+{
+  "name": "xemaic",
+  "version": "0.0.1",
+  "description": "A library for converting json-schema to mongoose schema",
+  "keywords": [
+    "json schema",
+    "mongoose"
+  ],
+  "author": {
+    "name": "Stanislav Potemkin",
+    "email": "woodger@ya.ru"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woodger/xemaic.git"
+  },
+  "engines": {
+    "node": ">=8.12.0"
+  },
+  "main": "./lib/src/index.js",
+  "types": "./lib/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha ./lib/test"
+  },
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.25",
+    "mocha": "^6.2.2",
+    "typescript": "^4.1.4"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.3",
+    "mongoose": "^5.11.18",
+    "typescript-json-schema": "^0.49.0"
+  }
+}
