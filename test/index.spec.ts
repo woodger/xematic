@@ -22,7 +22,9 @@ describe('JsonSchema', function() {
     );
 
     if (jsonSchema !== null) {
-      xematic(jsonSchema);
+      console.log(
+        JSON.stringify(xematic(jsonSchema))
+      );
     }
   });
 });
